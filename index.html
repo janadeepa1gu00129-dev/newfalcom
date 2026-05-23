@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Falcon Sport Complex</title>
+  <link rel="stylesheet" href="style.css" />
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
+
+   <!-- Viewport for mobile responsiveness -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  <!-- External CSS file (recommended) -->
+  <link rel="stylesheet" href="style.css">
+
+ 
+  
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="logo-area">
+      <img src="images/falcon-logo.png" alt="Falcon Cricket Academy Logo" class="logo" />
+      <div class="title">
+        <h1>Falcon Sport Complex</h1>
+        <p>Premier cricket training facility</p>
+      </div>
+    </div>
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#bookings">Bookings</a>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2><span class="line1">Welcome to</span><br><span class="line2">Falcon Sport Complex</span></h2>
+      <p>
+        Experience world-class cricket training with our premium facilities,
+        professional coaching, and state-of-the-art equipment.
+      </p>
+      <div class="buttons">
+        <a href="#bookings" class="btn primary">View Today's Bookings ⬇</a>
+      </div>
+    </div>
+
+    <!-- Feature Cards -->
+    <div class="features">
+      <div class="card">
+        <img src="images/Equipment.png" alt="Professional Equipment" class="card-icon" />
+        <h3>Professional Equipment</h3>
+        <p>Top-tier cricket nets and bowling machines for optimal training.</p>
+      </div>
+      <div class="card">
+        <img src="images/Coach.png" alt="Expert Coaching" class="card-icon" />
+        <h3>Expert Coaching</h3>
+        <p>Experienced coaches available for personalized training sessions.</p>
+      </div>
+      <div class="card">
+        <img src="images/Time.png" alt="Real-time Booking" class="card-icon" />
+        <h3>Real-time Booking Info</h3>
+        <p>View the todays bookings.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Bookings Section (same page) -->
+  <section id="bookings" class="bookings">
+    <h2>Today's Bookings</h2>
+    <p class="subtitle">Real-time booking information updated every 10 seconds</p>
+    <p id="lastUpdated">Last updated: --</p>
+    <div id="bookingList" class="booking-list"></div>
+  </section>
+
+  <section id="facilities" class="facilities-section1">
+  <h2>Our Facilities</h2>
+  <p class="facilities-intro">
+    Explore our premium cricket training facilities designed for players of all skill levels.
+  </p>
+
+  <div class="facility-grid">
+    <div class="facility-card">
+      <img src="images/net1.jpeg" alt="Practice Nets" />
+      <div class="facility-text">
+        <h3>Practice Nets</h3>
+        <p>High-quality indoor nets for safe and focused training sessions.</p>
+      </div>
+    </div>
+
+    <div class="facility-card">
+      <img src="images/bowling-machine.jpeg" alt="Bowling Machine" />
+      <div class="facility-text">
+        <h3>Bowling Machine</h3>
+        <p>Advanced bowling machine for precision batting practice with operator.</p>
+      </div>
+    </div>
+
+    <div class="facility-card">
+      <img src="images/training-area.jpeg" alt="Training Area" />
+      <div class="facility-text">
+        <h3>Training Area</h3>
+        <p>Spacious indoor lanes designed for professional-level practice.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+  
+<!-- Single separator between facilities and footer -->
+<hr class="section-divider" />
+
+<footer class="footer-section">
+  <div class="footer-container">
+    <div class="footer-column">
+      <h3>Falcon Sport Complex</h3>
+      <p>Premier cricket training facility with state-of-the-art equipment and professional coaching.</p>
+      <p><i class="fa-solid fa-location-dot"></i> Falcon Sport Complex, Udaya Mawatha, Malabe</p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Contact Us</h3>
+      <p><i class="fa-solid fa-phone"></i> 077 503 2953</p>
+      <p><i class="fa-solid fa-phone"></i> 077 834 1657</p>
+      <p><i class="fa-solid fa-phone"></i> 071 645 1653</p>
+      <p><i class="fa-solid fa-envelope"></i> falconadminmalabe@gmail.com</p>
+    </div>
+
+    <div class="footer-column">
+      <h3>Operating Hours</h3>
+      <p><i class="fa-regular fa-clock"></i> Weekdays: 10.00 am – 11.00 pm</p>
+      <p><i class="fa-regular fa-clock"></i> Weekends: 7.00 am – 11.00 pm</p>
+    </div>
+  </div>
+
+  <div class="footer-bottom">
+    <p>© 2026 Falcon Sport Complex. All rights reserved.</p>
+    <div class="footer-links">
+      <a href="#">Privacy Policy</a>
+      <a href="#">Terms of Service</a>
+    </div>
+  </div>
+</footer>
+
+
+
+  <script src="script.js"></script>
+</body>
+</html>
+
+
